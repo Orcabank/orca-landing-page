@@ -3,8 +3,7 @@
 </script>
 
 <main>
-	<h1>Hello This is Orca {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>Basically, it's a fancy Bitcoin wallet tailor-made to do business</h1>
 </main>
 
 <style>
