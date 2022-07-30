@@ -1,29 +1,36 @@
 <script>
-	export let name;
+ export let name;
 </script>
 
 <main>
-	<h1>Basically, it's a fancy Bitcoin wallet tailor-made to do business</h1>
+	  <h1>Hey there time traveler!</h1>
+    <h2>You're a little too soon... </h2>
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
+ :global(body) {
+     background-color: #000000;
+ }
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
+ main {
+		 text-align: center;
+		 padding: 1em;
+		 max-width: 240px;
+		 margin: 0 auto;
+     background-color: black;
+ }
 
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+ h1, h2 {
+		 color: #f2f2f2;
+     font-family: 'CodecPro-ExtraBold';
+		 font-size: 4em;
+		 font-weight: 100;
+     src: local('/static/CodecPro-ExtraBold.woff') format('woff');
+ }
+
+ @media (min-width: 640px) {
+		 main {
+			   max-width: none;
+		 }
+ }
 </style>
